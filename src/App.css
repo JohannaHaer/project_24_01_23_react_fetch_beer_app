@@ -115,7 +115,7 @@ p {
 }
 
 .allbeersImg {
-  width: fit-content;
+  /* width: fit-content; */
   height: 12rem;
   justify-self: center;
 }
@@ -147,13 +147,12 @@ p {
 
 .beerdetailsCard img {
   height: 30rem;
-  width: fit-content;
+  /* width: fit-content; */
   align-self: center;
 }
 
 .beerdetailsDiv {
   width: 90%;
-  /* border: 2px solid green; */
   display: flex;
   justify-content: space-between;
 }
