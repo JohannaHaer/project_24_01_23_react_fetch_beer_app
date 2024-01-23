@@ -24,6 +24,10 @@
   --font-weight-900: 900;
 }
 
+html {
+  
+}
+
 main {
   display: flex;
   align-items: center;
