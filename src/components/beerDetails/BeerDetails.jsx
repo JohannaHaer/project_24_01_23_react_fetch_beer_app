@@ -33,7 +33,7 @@ const BeerDetails = () => {
                             <p className='pGray'>First brewed:</p>
                             <p className='pGray'>Attenuation level:</p>
                         </div>
-                        <div>
+                        <div className='test'>
                             <p className='pGray'>{beers.first_brewed}</p>
                             <p className='pGray'>{beers.attenuation_level}</p>
                         </div>
