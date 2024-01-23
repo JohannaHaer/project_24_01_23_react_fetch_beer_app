@@ -9,7 +9,7 @@ const BeerCard = ({beer}) => {
                 <div>
                     <h2>{beer.name}</h2>
                     <h3>{beer.tagline}</h3>
-                    <p className='pBlack'>Contributed by: {beer.contributed_by.slice(0, beer.contributed_by.indexOf("<"))}</p>
+                    <p className='pBlack pMargin'>Contributed by: {beer.contributed_by.slice(0, beer.contributed_by.indexOf("<"))}</p>
                     <Link className='allbeersButton' to={`/allbeers/${beer._id}`}>Details</Link>
                 </div>
             </div>

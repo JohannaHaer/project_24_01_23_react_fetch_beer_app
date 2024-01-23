@@ -75,6 +75,9 @@ p {
 
 .pBlack {
   color: var(--black-color);
+}
+
+.pMargin {
   margin: 1rem 0;
 }
 
@@ -139,7 +142,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   gap: 1rem;
 }
 
@@ -150,14 +152,18 @@ p {
 }
 
 .beerdetailsDiv {
-  width: 20%;
+  width: 90%;
   /* border: 2px solid green; */
   display: flex;
   justify-content: space-between;
 }
 
-.test {
+.beerdetailsNumberDiv {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.beerdetailsLink {
+  margin-bottom: 1rem;
 }

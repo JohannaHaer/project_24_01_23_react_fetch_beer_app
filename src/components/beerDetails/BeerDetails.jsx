@@ -33,18 +33,18 @@ const BeerDetails = () => {
                             <p className='pGray'>First brewed:</p>
                             <p className='pGray'>Attenuation level:</p>
                         </div>
-                        <div className='test'>
+                        <div className='beerdetailsNumberDiv'>
                             <p className='pGray'>{beers.first_brewed}</p>
                             <p className='pGray'>{beers.attenuation_level}</p>
                         </div>
                     </div>
-                    <p>{beers.description}</p>
-                    <p>Contributed by: {beers.contributed_by.slice(0, beers.contributed_by.indexOf("<"))}</p>
+                    <p className='pBlack'>{beers.description}</p>
+                    <p className='pBlack pMargin'>Contributed by: {beers.contributed_by.slice(0, beers.contributed_by.indexOf("<"))}</p>
                 </div>
             )
             : (<p>Loading...</p>)
             }
-            <Link to='/allbeers'><img src={backLogo}/></Link>
+            <Link to='/allbeers'><img className='beerdetailsLink' src={backLogo}/></Link>
             <Link className='allbeersLink allbeersCenter' to='/'><img src={beerLogo}/></Link>
         </>
     )
