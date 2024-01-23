@@ -5,7 +5,7 @@ import backLogo from '../../assets/img/Back.svg'
 import beerLogo from '../../assets/img/Logo.svg'
 
 const BeerDetails = () => {
-    
+
     const beerID = useParams()
     const [beers, setBeers] = useState(null)
 
@@ -24,11 +24,11 @@ const BeerDetails = () => {
         <>
             {beers
             ? (
-                <div>
+                <div className='beerdetailsCard'>
                     <img src={beers.image_url} />
                     <h2 className='h2Gross'>{beers.name}</h2>
                     <h3>{beers.tagline}</h3>
-                    <div>
+                    <div className='beerdetailsDiv'>
                         <div>
                             <p className='pGray'>First brewed:</p>
                             <p className='pGray'>Attenuation level:</p>
