@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import backLogo from '../../assets/img/Back.svg'
 import beerLogo from '../../assets/img/Logo.svg'
+import againLogo from '../../assets/img/wiederholen.png'
 
 const RandomBeer = () => {
     
@@ -45,6 +46,7 @@ const RandomBeer = () => {
         : (<p>Loading...</p>)
         }
         <Link to='/allbeers'><img src={backLogo}/></Link>
+        <Link to='/random' onClick={() => window.location.reload()}><img src={againLogo}/></Link>
         <Link to='/'><img src={beerLogo}/></Link>
     </>
   )

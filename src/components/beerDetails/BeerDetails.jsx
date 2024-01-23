@@ -26,7 +26,7 @@ const BeerDetails = () => {
         ? (
             <div>
                 <img src={beers.image_url} />
-                <h2>{beers.name}</h2>
+                <h2 className='h2Gross'>{beers.name}</h2>
                 <h3>{beers.tagline}</h3>
                 <div>
                     <div>
