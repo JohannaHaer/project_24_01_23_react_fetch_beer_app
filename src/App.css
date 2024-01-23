@@ -115,7 +115,7 @@ p {
 }
 
 .allbeersImg {
-  width: max-content;
+  width: fit-content;
   height: 12rem;
   justify-self: center;
 }
@@ -136,7 +136,7 @@ p {
   align-self: center;
 }
 
-/* Detailseite */
+/* Detailseite und Randomseite*/
 
 .beerdetailsCard {
   display: flex;
@@ -147,7 +147,7 @@ p {
 
 .beerdetailsCard img {
   height: 30rem;
-  width: max-content;
+  width: fit-content;
   align-self: center;
 }
 
@@ -166,4 +166,9 @@ p {
 
 .beerdetailsLink {
   margin-bottom: 1rem;
+}
+
+.randombeerImg {
+  width: 5rem;
+  height: fit-content;
 }
