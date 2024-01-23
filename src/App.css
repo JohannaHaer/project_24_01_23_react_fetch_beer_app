@@ -168,7 +168,13 @@ p {
   margin-bottom: 1rem;
 }
 
+.randomButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .randombeerImg {
-  width: 5rem;
+  width: 4.5rem;
   height: fit-content;
 }

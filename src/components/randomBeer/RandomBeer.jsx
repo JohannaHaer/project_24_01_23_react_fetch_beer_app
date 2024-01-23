@@ -43,8 +43,10 @@ const RandomBeer = () => {
             )
             : (<p>Loading...</p>)
             }
-            <Link to='/allbeers'><img className='beerdetailsLink' src={backLogo}/></Link>
-            <Link to='/random' onClick={() => window.location.reload()}><img className='randombeerImg' src={againLogo}/></Link>
+            <div className='randomButtonDiv'>
+                <Link to='/allbeers'><img className='beerdetailsLink' src={backLogo}/></Link>
+                <Link to='/random' onClick={() => window.location.reload()}><img className='randombeerImg' src={againLogo}/></Link>
+            </div>
             <Link className='allbeersLink allbeersCenter' to='/'><img src={beerLogo}/></Link>
         </>
     )
