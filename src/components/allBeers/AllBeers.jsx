@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import BeerCard from '../beerCard/BeerCard'
+import beerLogo from '../../assets/img/Logo.svg'
+import { Link } from 'react-router-dom'
+
 
 const AllBeers = () => {
 
@@ -30,6 +33,7 @@ const AllBeers = () => {
             </div>
         )
     })}
+    <Link to='/'><img src={beerLogo}/></Link>
     </>
   )
 }
