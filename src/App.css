@@ -114,7 +114,6 @@ p {
 .allbeersImg {
   width: max-content;
   height: 12rem;
-  object-fit: cover;
   justify-self: center;
 }
 
@@ -147,7 +146,6 @@ p {
 .beerdetailsCard img {
   height: 30rem;
   width: max-content;
-  object-fit: cover;
   align-self: center;
 }
 
