@@ -5,7 +5,8 @@ import randombeer from '../../assets/img/randombeer.png'
 
 const Home = () => {
   return (
-    <>
+    <main>
+        <h1>Beer Tap App</h1>
         <section className='allbeers'>
             <img src={allbeers} />
             <Link to='/allbeers'>All Beers</Link>
@@ -16,7 +17,7 @@ const Home = () => {
             <Link to='/random'>Random Beer</Link>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, consequuntur maiores illo molestiae labore pariatur deserunt ipsa ullam officia necessitatibus.</p>
         </section>
-    </>
+    </main>
   )
 }
 
