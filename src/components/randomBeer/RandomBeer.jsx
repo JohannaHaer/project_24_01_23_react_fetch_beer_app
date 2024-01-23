@@ -45,6 +45,7 @@ const RandomBeer = () => {
             }
             <div className='randomButtonDiv'>
                 <Link to='/allbeers'><img className='beerdetailsLink' src={backLogo}/></Link>
+                {/* Reload funktioniert nur bei mir, aber nicht auf Netlify? */}
                 <Link to='/random' onClick={() => window.location.reload()}><img className='randombeerImg' src={againLogo}/></Link>
             </div>
             <Link className='allbeersLink allbeersCenter' to='/'><img src={beerLogo}/></Link>
