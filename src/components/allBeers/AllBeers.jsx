@@ -23,7 +23,7 @@ const AllBeers = () => {
 
   console.log(beers);
   return (
-    <section className='allBeersSite'>
+    <section className='allbeersSite'>
       {beers.map((beer, index) => {
         return(
             <div key ={index}>
@@ -33,7 +33,7 @@ const AllBeers = () => {
             </div>
         )
     })}
-    <Link to='/'><img src={beerLogo}/></Link>
+    <Link className='allbeersLink allbeersCenter' to='/'><img src={beerLogo}/></Link>
     </section>
   )
 }

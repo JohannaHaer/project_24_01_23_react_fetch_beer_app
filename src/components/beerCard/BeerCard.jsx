@@ -6,11 +6,11 @@ const BeerCard = ({beer}) => {
         <>
             <div className='allbeersCard'>
                 <img className='allbeersImg' src={beer.image_url} alt="" />
-                <div className='allbeersCardDiv'>
+                <div>
                     <h2>{beer.name}</h2>
                     <h3>{beer.tagline}</h3>
-                    <p>Contributed by: {beer.contributed_by.slice(0, beer.contributed_by.indexOf("<"))}</p>
-                    <Link to={`/allbeers/${beer._id}`}>Details</Link>
+                    <p className='pBlack'>Contributed by: {beer.contributed_by.slice(0, beer.contributed_by.indexOf("<"))}</p>
+                    <Link className='allbeersButton' to={`/allbeers/${beer._id}`}>Details</Link>
                 </div>
             </div>
             <hr />
