@@ -15,13 +15,13 @@ const AllBeers = () => {
   useEffect(() => {
     const fetchApi = async () => {
       const resp = await axios.get(api)
-      console.log(resp.data);
+      console.log("test", resp.data);
       setBeers(resp.data)
     }
     fetchApi()
   }, [])
 
-  console.log(beers);
+  console.log("test danach", beers);
   return (
     <section className='allbeersSite'>
       {beers.map((beer, index) => {
